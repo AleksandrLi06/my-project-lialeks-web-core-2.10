@@ -1,10 +1,92 @@
-.main-conteiner {
-    display: grid;
+.main-container {
+    padding: 50px 50px;
+   background-color: #F8F8F8;
+   width: 1120px; 
+   font
    
 }
 
 .services {
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-section {
+    display: flex;   
+}
+
+.services-section {
+     /* width: 125px;
+    height: 24px;
+    top: 50px;
+     left: 716px;   */
+    color: #1B1C21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 16px; */
+}
+
+.services-img {
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+}
+.nav-btn {
+    font-size: 18px;
+    padding: 10px;
+    flex: 1;
+    /* width: 233;
+height: 40;
+top: 90.37px;
+left: 33px;
+angle: 0 deg;
+opacity: 1;
+border-radius: 6px; */
+
+}
+
+.navigation {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.text {
+    width: 490;
+height: 160;
+top: 188.22px;
+left: 35px;
+angle: 0 deg;
+opacity: 1;
+}
+.fon-img {
+    width: 531.34619140625;
+height: 307;
+top: 179px;
+left: 561px;
+angle: 0 deg;
+opacity: 1;
+
+}
+
+button {
+    border: none;
+    background-color: #F8F8F8;
+    color: #7E7E82;
+}
+button:focus{
+    border: 2px solid #B8FFEC;
+    background-color: white;
+}
+.services-section:focus{
+    border: none;
+    background-color: #F8F8F8;
 }
 h1 {
     width: 266px;
@@ -13,46 +95,26 @@ h1 {
     left: 2px;
 
 }
-.services-section {
-    width: 125px;
-    height: 24px;
-    top: 50px;
-    left: 716px;
-   
-}
-.services-img {
-    width: 40px;
-    height: 40px;
-    top: 42px;
-    left: 1049px;
-}
-.nav-class {
-    
-    width: 233px;
-    height: 40px;
-    top: 42px;
-    left: 33px;
+.Downarrow {
+    /* padding: 10px; */
+    width: 12px;
+    height: 12px;
 
-}
-
-.navigation {
- 
-
-}
-.nav-class {
-    list-style: none;
-   
-}
-li {
-   
-}
-
-.main {
-    
 }
 .info {
+    color: #1B1C21;
+}
+h1 {
+    width: 266;
+height: 40;
+top: 42px;
+angle: 0 deg;
+opacity: 1;
+border-radius: 2px;
 
 }
-.fon-img {
-
+.latter-btn {
+    font-size: 18px;
+    color: #1B1C21;
+    gap: 10px;
 }
