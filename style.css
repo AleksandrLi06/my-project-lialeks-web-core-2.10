@@ -1,0 +1,58 @@
+.main-conteiner {
+    display: grid;
+   
+}
+
+.services {
+    
+}
+h1 {
+    width: 266px;
+    height: 40px;
+    top: 42px;
+    left: 2px;
+
+}
+.services-section {
+    width: 125px;
+    height: 24px;
+    top: 50px;
+    left: 716px;
+   
+}
+.services-img {
+    width: 40px;
+    height: 40px;
+    top: 42px;
+    left: 1049px;
+}
+.nav-class {
+    
+    width: 233px;
+    height: 40px;
+    top: 42px;
+    left: 33px;
+
+}
+
+.navigation {
+ 
+
+}
+.nav-class {
+    list-style: none;
+   
+}
+li {
+   
+}
+
+.main {
+    
+}
+.info {
+
+}
+.fon-img {
+
+}
