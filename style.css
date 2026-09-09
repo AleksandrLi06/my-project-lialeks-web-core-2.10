@@ -2,7 +2,6 @@
     padding: 50px 50px;
    background-color: #F8F8F8;
    width: 1120px; 
-   font
    
 }
 
@@ -16,10 +15,10 @@
 }
 
 .services-section {
-     /* width: 125px;
+      /* width: 125px;
     height: 24px;
     top: 50px;
-     left: 716px;   */
+     left: 716px;  */
     color: #1B1C21;
     display: flex;
     justify-content: center;
@@ -48,7 +47,6 @@ border-radius: 6px; */
 
 .navigation {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -66,13 +64,11 @@ angle: 0 deg;
 opacity: 1;
 }
 .fon-img {
-    width: 531.34619140625;
-height: 307;
+/* height: 307;
 top: 179px;
-left: 561px;
-angle: 0 deg;
-opacity: 1;
-
+left: 561px; */
+width: 100%;
+height: 100%;
 }
 
 button {
@@ -117,4 +113,98 @@ border-radius: 2px;
     font-size: 18px;
     color: #1B1C21;
     gap: 10px;
+}
+li {
+    list-style: none;
+}
+.tablet-bar {
+    display: none;
+}
+.phone-bar {
+    display: none;
+}
+
+@media (min-width: 700px) and (max-width: 1024px) {
+    .tablet-bar {
+        display: flex;
+        background-color: white;
+        position: sticky;
+        width: 100%;
+        max-width: 1024px;
+        min-width: 700px;
+        padding: 10px 10px;
+    
+    }
+    .main-container {
+        width: 100%;
+        max-width: 1024px;
+        min-width: 700px;
+        padding: 10px 10px;
+    }
+    .nav-section {
+        display: none;
+    }
+    .tablet-bar-icons {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    .right {
+        display: flex;
+        position: relative;
+        left: 100%;
+        gap: 16px;
+    }
+    
+    .divider {
+    border-left: 2px solid #EAEAEA;
+    height: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+    .phone-bar {
+        display: flex;
+        width: 320px;
+        height: 88px;
+        width: 100%;
+        background-color: white;
+        position: sticky;
+        box-sizing: border-box;
+    }
+    .main {
+        display: block;
+        width: 100%;
+        max-width: 700px;
+        min-width: 320px;
+    }
+    .main-container {
+        padding: 10px;
+        width: 100%;
+        max-width: 700px;
+        min-width: 320px;
+    }
+    .info-2 {
+        display: none;
+    }
+    .info-2:has(+ .latter-btn:focus) {
+        display: block;
+    }
+    .nav-section {
+        display: none;
+    }
+    .phone-bar-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        width: 100%;
+    }
+
+
+     .divider {
+    border-left: 2px solid #EAEAEA;
+    height: 30px;
+
+    }
 }
