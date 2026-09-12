@@ -126,7 +126,7 @@ li {
     display: none;
 }
 
-@media (min-width: 700px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
     .tablet-bar {
         display: flex;
         background-color: white;
@@ -171,7 +171,7 @@ li {
         position: sticky;
         box-sizing: border-box;
     }
-    
+
     .main {
         display: block;
         max-width: 700px;
