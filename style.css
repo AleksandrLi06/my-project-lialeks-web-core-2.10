@@ -1,7 +1,7 @@
 .main-container {
     padding: 50px 50px;
    background-color: #F8F8F8;
-   width: 1120px; 
+   /* width: 1120px;  */
    
 }
 
@@ -34,7 +34,6 @@
 .nav-btn {
     font-size: 18px;
     padding: 10px;
-    flex: 1;
     /* width: 233;
 height: 40;
 top: 90.37px;
@@ -48,6 +47,7 @@ border-radius: 6px; */
 .navigation {
     display: flex;
     align-items: center;
+
 }
 
 .main {
@@ -131,7 +131,6 @@ li {
         display: flex;
         background-color: white;
         position: sticky;
-        width: 100%;
         max-width: 1024px;
         min-width: 700px;
         padding: 10px 10px;
@@ -146,7 +145,7 @@ li {
     .nav-section {
         display: none;
     }
-    .tablet-bar-icons {
+    .tablet-bar__icons {
         display: flex;
         align-items: center;
         gap: 16px;
@@ -164,28 +163,21 @@ li {
     }
 }
 
-@media (min-width: 320px) and (max-width: 700px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .phone-bar {
         display: flex;
         width: 320px;
-        height: 88px;
-        width: 100%;
         background-color: white;
         position: sticky;
         box-sizing: border-box;
     }
+    
     .main {
         display: block;
-        width: 100%;
         max-width: 700px;
         min-width: 320px;
     }
-    .main-container {
-        padding: 10px;
-        width: 100%;
-        max-width: 700px;
-        min-width: 320px;
-    }
+
     .info-2 {
         display: none;
     }
@@ -195,12 +187,27 @@ li {
     .nav-section {
         display: none;
     }
-    .phone-bar-icons {
+    .navigation {
         display: flex;
-        justify-content: space-between;
+        max-width: 767px;
+        overflow: scroll;
+        overflow: hidden;
+        flex-wrap: nowrap;
+    }
+    nav {
+        max-width: 100%;
+        width: 767px;
+    }
+    ul li {
+        flex-shrink: 0;
+    }
+
+    .phone-bar__icons {
+        display: flex;
+        justify-content: flex-start;
         align-items: center;
         gap: 16px;
-        width: 100%;
+        width: 320px;
     }
 
 
